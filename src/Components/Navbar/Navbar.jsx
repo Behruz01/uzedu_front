@@ -5,7 +5,7 @@ import NavItems from "./Navs/NavItems/NavItems";
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-around">
+        <div className="flex items-center justify-around  mx-40">
             <HamburgerMenu />
             <NavItems />
             <Lang />
