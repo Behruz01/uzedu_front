@@ -1,7 +1,7 @@
 import React from "react";
 
 const NavItemBottom = () => {
-    return <div>NavItemBottom</div>;
+    return <div className="text-white">NavItemBottom</div>;
 };
 
 export default NavItemBottom;
