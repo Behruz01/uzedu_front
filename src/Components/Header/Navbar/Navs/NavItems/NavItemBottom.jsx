@@ -16,7 +16,7 @@ const data = [
 const NavItemBottom = () => {
     return (
         <>
-            <div className="items-center flex gap-5 justify-between">
+            <div id="navItemBottom" className="items-center flex gap-5 justify-between">
                 {/* {data.map((items) => (
                     <p className="cursor-pointer ">{items.navItemBottom}</p>
                 ))} */}

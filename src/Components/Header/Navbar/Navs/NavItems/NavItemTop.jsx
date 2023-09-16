@@ -19,7 +19,10 @@ const data = [
 const NavItemTop = () => {
     return (
         <>
-            <div className="flex text-xs items-center justify-between w-full">
+            <div
+                id="navItemTop"
+                className="flex navItemTop text-xs items-center justify-between w-full"
+            >
                 {/* {data.map((items, i) => (
                     <p key={i}>{items.navItems}</p>
                 ))} */}
