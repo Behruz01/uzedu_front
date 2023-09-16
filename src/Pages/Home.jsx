@@ -1,22 +1,17 @@
 import React from "react";
-import Layout from "../Components/Layout/Layout";
-<<<<<<< HEAD
+// import Layout from "../Components/Layout/Layout";
 import Header from "../Components/Header/Header";
+import Main from "../Components/Main/Main";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
     return (
-        <Layout>
+        <>
             <Header />
-        </Layout>
+            <Main />
+            <Footer />
+        </>
     );
-=======
-import Main from "../Components/Main/Main";
-
-const Home = () => {
-    return <Layout>
-        <Main></Main>
-    </Layout>;
->>>>>>> 489d100e6b4d0d688a62cd900ae89228bc080899
 };
 
 export default Home;

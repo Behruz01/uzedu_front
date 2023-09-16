@@ -1,7 +1,7 @@
 import React from "react";
 
 const Lang = () => {
-    return <div className="text-white">Lang</div>;
+    return <div className="">Lang</div>;
 };
 
 export default Lang;
