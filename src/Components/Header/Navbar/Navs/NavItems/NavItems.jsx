@@ -6,6 +6,7 @@ const NavItems = () => {
     return (
         <div className="w-3/4">
             <NavItemTop />
+            <hr className="w-full my-4"/>
             <NavItemBottom />
         </div>
     );

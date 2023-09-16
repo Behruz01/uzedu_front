@@ -21,12 +21,14 @@ const NavItemBottom = () => {
                     <p className="cursor-pointer ">{items.navItemBottom}</p>
                 ))} */}
 
-                <p>Vazirlik</p>
-                <p>Ta'lim</p>
-                <p>Faoliyat</p>
-                <p>Axborot xizmati</p>
-                <p>Ochiq ma'lumotlar</p>
-                <p>Korrupsiyaga qarshi kurash</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">Vazirlik</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">Ta'lim</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">Faoliyat</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">Axborot xizmati</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">Ochiq ma'lumotlar</p>
+                <p className="cursor-pointer hover:text-[#f0f220]">
+                    Korrupsiyaga qarshi kurash
+                </p>
             </div>
         </>
     );
