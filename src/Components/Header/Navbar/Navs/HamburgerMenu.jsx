@@ -1,9 +1,9 @@
 import React from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { IoIosMenu } from "react-icons/io";
 const HamburgerMenu = () => {
     return (
-        <div className="border-2 border-white px-2 py-2 cursor-pointer">
-            <GiHamburgerMenu className="w-8 h-8" />
+        <div className="border-2 border-white px-2 py-2 cursor-pointer group hover:bg-[#f0f220]">
+            <IoIosMenu className="w-8 h-8 group-hover:text-[#4c4083]" />
         </div>
     );
 };
