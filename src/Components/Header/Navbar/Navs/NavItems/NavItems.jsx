@@ -4,7 +4,7 @@ import NavItemBottom from "./NavItemBottom";
 
 const NavItems = () => {
     return (
-        <div>
+        <div className="w-3/4">
             <NavItemTop />
             <NavItemBottom />
         </div>

@@ -16,7 +16,7 @@ const data = [
 const NavItemTop = () => {
     return (
         <div className="gap-10">
-            <div className="flex text-xs gap-5">
+            <div className="flex text-xs justify-between">
                 {/* {data.map((items, i) => (
                     <p key={i}>{items.navItems}</p>
                 ))} */}
