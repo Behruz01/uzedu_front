@@ -1,0 +1,10 @@
+@media only screen and (max-width: 960px) {
+    #headerEduLogo {
+        display: none;
+    }
+    .header_content {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
