@@ -5,7 +5,7 @@ import NavItems from "./Navs/NavItems/NavItems";
 
 const Navbar = () => {
     return (
-        <div className="relative z-10 text-white flex items-center justify-between">
+        <div className="relative z-10 text-white flex items-center justify-between py-5">
             <HamburgerMenu />
             <NavItems />
             <Lang />
