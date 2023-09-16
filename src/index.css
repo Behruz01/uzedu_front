@@ -3,22 +3,3 @@
     margin: auto;
 }
 
-#header {
-    background-image: url(./Assets/bg_hero.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 1286px) {
-    #navItemTop {
-        display: none;
-    }
-    #navItemBottom {
-        display: none;
-    }
-    #hrDraw {
-        display: none;
-    }
-}
-

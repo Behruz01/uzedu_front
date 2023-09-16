@@ -2,6 +2,7 @@ import React from "react";
 import HamburgerMenu from "./Navs/HamburgerMenu";
 import Lang from "./Navs/Lang";
 import NavItems from "./Navs/NavItems/NavItems";
+import "./navbar.css";
 
 const Navbar = () => {
     return (
