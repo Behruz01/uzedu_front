@@ -1,26 +1,9 @@
 import React from "react";
 
-const data = [
-    {
-        navItemBottom: [
-            "Vazirlik",
-            "Ta'lim",
-            "Faoliyat",
-            "Axborot xizmati",
-            "Ochiq ma'lumotlar",
-            "Korrupsiyaga qarshi kurash",
-        ],
-    },
-];
-
 const NavItemBottom = () => {
     return (
         <>
             <div id="navItemBottom" className="items-center flex gap-5 justify-between">
-                {/* {data.map((items) => (
-                    <p className="cursor-pointer ">{items.navItemBottom}</p>
-                ))} */}
-
                 <p className="cursor-pointer hover:text-[#f0f220]">Vazirlik</p>
                 <p className="cursor-pointer hover:text-[#f0f220]">Ta'lim</p>
                 <p className="cursor-pointer hover:text-[#f0f220]">Faoliyat</p>

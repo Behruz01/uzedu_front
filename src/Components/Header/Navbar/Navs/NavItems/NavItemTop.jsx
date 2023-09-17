@@ -3,19 +3,6 @@ import React from "react";
 import { AiOutlineEye } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 
-const data = [
-    {
-        navItems: [
-            "O'qituvchi ish o'rinlari",
-            "Hujjatlar",
-            "Loyihalar",
-            "Ko'p beriladigan savollar",
-            "Davlat ramzlari",
-            "Fuqarolar murojaati",
-        ],
-    },
-];
-
 const NavItemTop = () => {
     return (
         <>
@@ -23,10 +10,6 @@ const NavItemTop = () => {
                 id="navItemTop"
                 className="flex navItemTop text-xs items-center justify-between w-full"
             >
-                {/* {data.map((items, i) => (
-                    <p key={i}>{items.navItems}</p>
-                ))} */}
-
                 <p className="cursor-pointer hover:text-[#f0f220]">
                     O'qituvchi ish o'rinlari
                 </p>
