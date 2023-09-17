@@ -1,0 +1,21 @@
+@media only screen and (max-width: 960px) {
+    .mainNav_section {
+        display: block;
+        justify-content: center;
+    }
+    .mainNav_logo {
+        margin: auto;
+    }
+    .mainNav_text {
+        margin: auto;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mainNav_contact {
+        margin: auto;
+        justify-content: center;
+    }
+}

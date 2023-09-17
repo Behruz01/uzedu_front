@@ -1,6 +1,7 @@
 // import React from "react";
 import Navbar from "./Navbar/Navbar";
 import logoHeader from "../../Assets/logoHero.svg";
+import mainHeaderBottomShape from "../../Assets/mainHeaderBottomShape.svg";
 import "./header.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,17 +12,15 @@ import "swiper/css/pagination";
 const Header = () => {
     return (
         <div id="header" className="">
-            <div
-                className="bg_rounded opacity-70 z-20 absolute w-[700px] h-[350px] bg-[#e3da5c] bottom-0 left-[-350px] rounded-t-full"
-            ></div>
-            <div className="bg-[#413574] bg-opacity-75  w-full h-full absolute"></div>
+            <div className="bg_rounded opacity-70 z-20 absolute w-[700px] h-[350px] bg-[#e3da5c] bottom-0 left-[-350px] rounded-t-full"></div>
+            <div className="bg-[#413574] bg-opacity-75 w-full h-full absolute"></div>
             <div className="containr ">
                 <Navbar />
 
                 <div className="mt-16 text-white flex items-center justify-center containr ">
                     <div
                         id="headerEduLogo"
-                        className="border-2 mr-28 border-white px-10 py-14 backdrop-blur-lg"
+                        className="border-2 mr-20 border-white px-14 py-14 backdrop-blur-lg"
                     >
                         <img className="w-48 h-48" src={logoHeader} alt="" />
                     </div>
@@ -78,6 +77,11 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <img
+                src={mainHeaderBottomShape}
+                alt=""
+                className="absolute z-20 bottom-0 left-96 main_header_bottom_shape"
+            />
         </div>
     );
 };
