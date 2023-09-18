@@ -18,4 +18,19 @@
         margin: auto;
         justify-content: center;
     }
+    .miniBannerHeader {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main_advertising {
+        display: block;
+        text-align: center;
+    }
+    .main_advertising_button {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
