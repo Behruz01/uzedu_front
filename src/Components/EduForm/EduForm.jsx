@@ -78,7 +78,7 @@ const EduForm = () => {
                         ></textarea>
                         <button
                             type="submit"
-                            className="hover:bg-[#f0f220] w-full  hover:text-[#4c4083] font-bold transition delay-75 bg-[#4c4083] text-white py-2 px-16 rounded "
+                            className="hover:bg-[#f0f220] w-full  hover:text-[#4c4083] font-bold transition delay-75 bg-[#4c4083] text-white py-3 rounded "
                         >
                             Yuborish
                         </button>

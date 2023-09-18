@@ -5,6 +5,7 @@ import ComeToSchool from "../Components/ComeToSchool/ComeToSchool";
 import NewsCards from "../Components/NewsCards/NewsCards";
 import InteractiveMap from "../Components/InteractiveMap/InteractiveMap";
 import EduForm from "../Components/EduForm/EduForm";
+import ApplicationStatistics from "../Components/ApplicationStatistics/ApplicationStatistics";
 // import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <NewsCards />
             <InteractiveMap />
             <EduForm />
+            <ApplicationStatistics />
             {/* <Footer /> */}
         </>
     );
