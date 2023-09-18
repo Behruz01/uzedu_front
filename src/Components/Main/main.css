@@ -18,6 +18,10 @@
         margin: auto;
         justify-content: center;
     }
+    .main_advertising {
+        padding-right: 0px;
+        padding: 15px;
+    }
     .miniBannerHeader {
         display: none;
     }
