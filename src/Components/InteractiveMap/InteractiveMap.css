@@ -1,0 +1,6 @@
+.interactive_map {
+    background-image: url(../../Assets/bg_interactiveMap.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
