@@ -1,0 +1,24 @@
+@media only screen and (max-width: 950px) {
+    .first_column {
+        display: block;
+        width: 100%;
+    }
+    .form_div,
+    .name_input {
+        width: 100%;
+    }
+    .city_select {
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 8px;
+        margin-top: 25px;
+    }
+    .select_district {
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 8px;
+        margin-top: 25px;
+    }
+}
