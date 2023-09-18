@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "../Components/Header/Header";
 import Main from "../Components/Main/Main";
-import Footer from "../Components/Footer/Footer";
+import ComeToSchool from "../Components/ComeToSchool/ComeToSchool";
+// import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
     return (
         <>
             <Header />
             <Main />
-            <Footer />
+            <ComeToSchool />
+            {/* <Footer /> */}
         </>
     );
 };

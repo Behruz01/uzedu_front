@@ -1,0 +1,16 @@
+#come_to_school {
+    background-image: url(../../Assets/shapes2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1260px) {
+    .notebook_img {
+        display: none;
+    }
+    .come_to_school_text,
+    .come_to_school_btn {
+        width: 100%;
+        text-align: center;
+    }
+}
