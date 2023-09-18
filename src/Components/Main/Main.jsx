@@ -6,7 +6,7 @@ import MainCards from "./MainContent/MainCards/MainCards";
 
 const Main = () => {
     return (
-        <div className="containr">
+        <div id="main_section">
             <MainNav />
             <MainAdvertising />
             <MainCards />

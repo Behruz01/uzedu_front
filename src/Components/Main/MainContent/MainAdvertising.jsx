@@ -3,7 +3,7 @@ import miniBannerHeader from "../../../Assets/miniBannerMain.png";
 
 const MainAdvertising = () => {
     return (
-        <div className="bg-[#4c4083e8] gap-10 main_advertising flex mt-16 pe-5 rounded-lg justify-between items-center">
+        <div className="bg-[#4c4083e8] containr gap-10 main_advertising flex mt-16 pe-5 rounded-lg justify-between items-center">
             <img className="w-96 miniBannerHeader" src={miniBannerHeader} alt="" />
             <h3 className="text-white text-xl">
                 Umumta’lim maktablarining 1-sinfiga bolalarni onlayn qabul qilish jarayoni
