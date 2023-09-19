@@ -21,27 +21,17 @@ const ApplicationStatistics = () => {
                 className="mySwiper text-[#4c4083] containr mt-10 text-center text-2xl absolute"
             >
                 <SwiperSlide>
-                    <p className="font-bold ml-5">10 104</p>
-                    <p className="text-xl ml-5">Maktab</p>
+                    <p className="font-bold ml-5">0</p>
+                    <p className="text-xl ml-5">Ko'rib chiqilmoqda</p>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <p className="font-bold ml-5">6mln</p>
-                    <p className="text-xl ml-5">O'quvchilar</p>
-                    <hr className="bg-[#4c4083] h-60 w-0.5 top-0 absolute" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <p className="font-bold ml-5">506 618</p>
-                    <p className="text-xl ml-5">O'qituvchilar</p>
+                    <p className="font-bold ml-5">3 893</p>
+                    <p className="text-xl ml-5">Ko'rib chiqildi</p>
                     <hr className="bg-[#4c4083] h-60 w-0.5 top-0 absolute " />
                 </SwiperSlide>
                 <SwiperSlide>
                     <p className="font-bold ml-5">219</p>
-                    <p className="text-xl ml-5">Barkamol alvlod maktablari</p>
-                    <hr className="bg-[#4c4083] h-60 w-0.5 top-0 absolute " />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <p className="font-bold ml-5">3</p>
-                    <p className="text-xl ml-5">Mehribonlik uylari</p>
+                    <p className="text-xl ml-5">Rad etilgan arizalar</p>
                     <hr className="bg-[#4c4083] h-60 w-0.5 top-0 absolute " />
                 </SwiperSlide>
             </Swiper>
