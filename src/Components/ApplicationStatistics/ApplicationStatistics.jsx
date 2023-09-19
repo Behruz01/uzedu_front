@@ -6,12 +6,12 @@ import "swiper/css/pagination";
 
 const ApplicationStatistics = () => {
     return (
-        <div className="mt-16 mb-10">
+        <div className="mt-16 mb-10 containr">
             <h1 className="text-3xl text-[#4c4083] font-bold text-center mb-5">
                 Murojaatlar statistikasi
             </h1>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={2}
                 spaceBetween={30}
                 pagination={{
                     clickable: true,

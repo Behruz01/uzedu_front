@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 const HeaderSwiper = () => {
     return (
         <div className="mt-28 containr relative">
-            <div className="w-1/2 header_swiper absolute mx-auto right-0">
+            <div className="w-1/2 header_swiper absolute mx-auto right-0 containr">
                 <Swiper
                     slidesPerView={2}
                     spaceBetween={30}
