@@ -19,7 +19,7 @@ const Header = () => {
                     >
                         <img className="w-48 h-48" src={logoHeader} alt="" />
                     </div>
-                    <div className="w-1/2 relative header_content">
+                    <div className="w-1/2 relative header_content z-20">
                         <h1 className="text-3xl mb-12 font-bold">
                             O‘zbekiston Respublikasi maktabgacha va maktab ta'limi
                             vazirligi
