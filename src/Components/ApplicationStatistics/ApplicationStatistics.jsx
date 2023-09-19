@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 
 const ApplicationStatistics = () => {
     return (
-        <div className="mt-16">
+        <div className="mt-16 mb-10">
             <h1 className="text-3xl text-[#4c4083] font-bold text-center mb-5">
                 Murojaatlar statistikasi
             </h1>
